@@ -23,6 +23,7 @@ body {
 
 .card {
     transition: scale 400ms;
+    animation: fadein 5s;
     border-radius: 4px;
     width: 400px;
     margin: 0 auto;
@@ -51,3 +52,14 @@ the design of your business card, e.g.:
 - hover effects  🤯🤯
 - animations     🤯🤯🤯
 */
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
